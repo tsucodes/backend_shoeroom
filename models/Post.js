@@ -5,7 +5,6 @@ const PostSchema = new mongoose.Schema({
     brand: String,
     size: String,
     condition: String,
-    // convert images into string using redux64
     image: String,
  
 });
