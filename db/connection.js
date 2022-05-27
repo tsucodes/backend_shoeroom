@@ -3,6 +3,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 // Mongo URL and Connection
+// let mongoURI = "";
 let mongoURI = process.env.DB_URL;
 const db = mongoose.connection;
 
